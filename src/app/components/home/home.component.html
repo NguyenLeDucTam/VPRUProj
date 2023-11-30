@@ -1,0 +1,21 @@
+<div id="homePage" data-role="page">
+  <header data-role="header" data-position="fixed" data-theme="a">
+    <h1>Home Page</h1>
+  </header>
+  <section data-role="content">
+    <img class="image" src="assets/hotel-icon.avif" alt="Hotels" width="200" height="150">
+    <form id="frmReg" name="frmReg">
+      <div class="form-group">
+        <label class="form-label" for="logName">Name: </label>
+        <input class="form-control" type="text" id="logName" name="logName" placeholder="Enter Your Name Here" data-clear-btn="true">
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="logPassword">Password: </label>
+        <input class="form-control" type="text" id="logPassword" name="logPassword" placeholder="Enter Your Password" data-clear-btn="true">
+      </div>
+      <button class="btn-primary" id="btnSignUp" name="btnSignUp">Sign In</button><br>
+      <label for="signIn">Already have an account? Sign up:</label>
+      <a routerLink="/register" data-role="button" id="signIn" data-theme="a">Sign Up</a>
+    </form>
+  </section>
+</div>
